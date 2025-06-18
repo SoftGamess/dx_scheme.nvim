@@ -1,5 +1,5 @@
 local colors = {
-Normal = {fg = "hsl(60,10,9)" },
+Normal = {fg = hsl(60,10,9) },
 Comment = {fg = "hsl(60,0,40)" },
 ["@comment"] = {link = "Comment"},
 ["@lsp.type.comment"] = {link = "Comment"},
