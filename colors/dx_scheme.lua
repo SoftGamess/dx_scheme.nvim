@@ -1,5 +1,5 @@
 local colors = {
-Normal = {fg = "#191915" },
+Normal = {bg = "#191915" },
 Comment = {fg = "#666666" },
 ["@comment"] = {link = "Comment"},
 ["@lsp.type.comment"] = {link = "Comment"},
