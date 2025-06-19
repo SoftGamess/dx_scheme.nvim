@@ -23,6 +23,7 @@ local theme = lush(function(injected_functions)
     NvimOptionSigil                            { Constant },
     Type                                       { Constant },
     Identifier                                 { fg = hsl(60,50,50) },
+    sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
     sym"@property"                             { Identifier },
     sym"@variable"                             { Identifier },
