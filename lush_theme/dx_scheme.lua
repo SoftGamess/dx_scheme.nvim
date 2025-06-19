@@ -30,6 +30,7 @@ local theme = lush(function(injected_functions)
     sym"@lsp.type.parameter"                   { Identifier },
     sym"@lsp.type.property"                    { Identifier },
     sym"@lsp.type.variable"                    { Identifier },
+    NvimIdentifier                             { Identifier },
     sym"@parameter"                            { fg = hsl(33,80,45) },
     Delimiter                                  { fg = hsl(180,50,50) },
     Operator                                   { Delimiter },
