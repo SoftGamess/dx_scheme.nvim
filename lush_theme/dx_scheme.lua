@@ -22,6 +22,8 @@ local theme = lush(function(injected_functions)
     NvimNumberPrefix                           { Constant },
     NvimOptionSigil                            { Constant },
     Type                                       { Constant },
+    sym"@type"                                 { Constant },
+    sym"@lsp.type.type"                        { Constant },
     Identifier                                 { fg = hsl(60,50,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
