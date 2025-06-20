@@ -29,6 +29,7 @@ local theme = lush(function(injected_functions)
     sym"@constant.builtin"                     { Constant },
     sym"@function.builtin"                     { Constant },
     sym"@constructor"                          { Constant },
+    Tag                                        { Constant },
     Identifier                                 { fg = hsl(60,75,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
