@@ -59,7 +59,7 @@ local theme = lush(function(injected_functions)
     Macro                                      { Keyword },
     PreCondit                                  { Keyword },
     sym"@preproc"                              { Keyword },
-    Function                                   { fg = hsl(60,20,50) },
+    Function                                   { fg = hsl(0,50,50) },
     sym"@function"                             { Function },
     sym"@method"                               { Function },
     sym"@lsp.type.decorator"                   { Function },
