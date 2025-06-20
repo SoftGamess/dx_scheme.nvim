@@ -30,6 +30,7 @@ local theme = lush(function(injected_functions)
     sym"@constructor"                          { Constant },
     Tag                                        { Constant },
     Debug                                      { Constant },
+    vimHiAttrib                                { Constant },
     Identifier                                 { fg = hsl(60,75,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
