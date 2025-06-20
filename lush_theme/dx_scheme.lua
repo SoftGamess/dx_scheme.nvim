@@ -13,7 +13,7 @@ local theme = lush(function(injected_functions)
     Search                                     { bg = hsl(180,50,50) },
     Comment                                    { fg = hsl(0,0,40) },
     sym"@lsp.type.comment"                     { Comment },
-    Constant                                   { fg = hsl(0,0,85) },
+    Constant                                   { fg = hsl(0,0,0), gui ="bold" },
     sym"@constant"                             { Constant },
     sym"@lsp.type.enumMember"                  { Constant },
     StorageClass                               { Constant },
