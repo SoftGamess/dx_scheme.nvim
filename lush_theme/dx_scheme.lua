@@ -8,7 +8,8 @@ local theme = lush(function(injected_functions)
   return {
 --    SpecialKey                                 { fg="#d7c483", },
     TermCursor                                 { gui="reverse", },
-    Normal                                     { bg = hsl(60,10,9), },
+    --Normal                                     { bg = hsl(60,10,9), },
+    Normal                                     { bg = hsl(0,0,13) },
     Visual                                     { bg = hsl(50,50,50) },
     Search                                     { bg = hsl(180,50,50) },
     Comment                                    { fg = hsl(60,0,40), bg = hsl(60,10,10) },
