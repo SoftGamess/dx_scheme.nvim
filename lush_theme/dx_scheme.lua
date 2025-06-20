@@ -34,7 +34,7 @@ local theme = lush(function(injected_functions)
     SpecialChar                                { Constant },
     SpecialComment                             { Constant },
     Special                                    { Constant },
-    Identifier                                 { fg = hsl(60,75,50) },
+    Identifier                                 { fg = hsl(60,90,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
     sym"@property"                             { Identifier },
