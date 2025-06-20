@@ -1,5 +1,5 @@
 local colors = {
-Normal = {bg = "#26200d" },
+Normal = {bg = "#393013" },
 Visual = { bg = "#bfaa40" },
 Comment = {fg = "#666666" },
 ["@comment"] = {link = "Comment"},
