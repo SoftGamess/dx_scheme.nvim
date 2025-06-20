@@ -25,11 +25,11 @@ local theme = lush(function(injected_functions)
     Type                                       { Constant },
     sym"@type"                                 { Constant },
     sym"@lsp.type.type"                        { Constant },
-    sym"@lsp.type.function"                    { Constant },
     sym"@constant.builtin"                     { Constant },
     sym"@function.builtin"                     { Constant },
     sym"@constructor"                          { Constant },
     Tag                                        { Constant },
+    Debug                                      { Constant },
     Identifier                                 { fg = hsl(60,75,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
@@ -60,6 +60,7 @@ local theme = lush(function(injected_functions)
     sym"@method"                               { Function },
     sym"@lsp.type.decorator"                   { Function },
     sym"@lsp.type.method"                      { Function },
+    sym"@lsp.type.function"                    { Function },
       }
 end)
 ---@diagnostic disable
