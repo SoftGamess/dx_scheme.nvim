@@ -25,6 +25,7 @@ local theme = lush(function(injected_functions)
     Type                                       { Constant },
     sym"@type"                                 { Constant },
     sym"@lsp.type.type"                        { Constant },
+    sym"@lsp.type.function"                    { Constant },
     Identifier                                 { fg = hsl(60,75,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
@@ -50,6 +51,11 @@ local theme = lush(function(injected_functions)
     Macro                                      { Keyword },
     PreCondit                                  { Keyword },
     sym"@preproc"                              { Keyword },
+    Function                                   { fg = hsl(60,20,50) },
+    sym"@function"                             { Function },
+    sym"@method"                               { Function },
+    sym"@lsp.type.decorator"                   { Function },
+    sym"@lsp.type.method"                      { Function },
       }
 end)
 ---@diagnostic disable

@@ -39,11 +39,17 @@ TermCursor = {reverse = true},
 Type = { link = "Constant" },
 ["@type"] = {link = "Constant" },
 ["@lsp.type.type"] = {link = "Constant" },
+["@lsp.type.function"] = {link = "Constant"},
 NvimNumberPrefix = { fg = "#bfbf40" },
 NvimOptionSigil = {link = "Type"},
 StorageClass = {link = "Type"},
 Structure = {link = "Type"},
 Typedef = {link = "Type"},
+Function = {fg = "#999966" },
+["@function"] = {link = "Function"},
+["@method"] = {link = "Function"},
+["@lsp.type.decorator"] = {link = "Function"},
+["@lsp.type.method"] = {link = "Function"},
 }
 
 
