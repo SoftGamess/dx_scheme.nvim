@@ -33,6 +33,7 @@ local theme = lush(function(injected_functions)
     vimHiAttrib                                { Constant },
     SpecialChar                                { Constant },
     SpecialComment                             { Constant },
+    Special                                    { Constant },
     Identifier                                 { fg = hsl(60,75,50) },
     sym"@parameter"                            { Identifier },
     sym"@field"                                { Identifier },
