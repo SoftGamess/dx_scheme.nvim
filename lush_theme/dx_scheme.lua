@@ -10,6 +10,7 @@ local theme = lush(function(injected_functions)
     TermCursor                                 { gui= "reverse", },
     Normal                                     { bg = hsl(60,20,15) },
     Visual                                     { bg = hsl(160,20,30) },
+    TelescopeSelection                         { Visual },
     Search                                     { bg = hsl(160,20,30) },
     Comment                                    { fg = hsl(0,0,40) },
     sym"@lsp.type.comment"                     { Comment },
@@ -78,6 +79,15 @@ local theme = lush(function(injected_functions)
     DiagnosticUnderlineWarn                    { underline= true },
     DiagnosticUnderlineInfo                    { underline= true },
     DiagnosticUnderlineHint                    { underline= true },
+    TelescopeBorder                            { fg = hsl(55,100,80), bg = hsl(60,20,13) },
+    TelescopeResultBorder                      { TelescopeBorder },
+    TelescopePreviewBorder                     { TelescopeBorder },
+    TelescopeTitle                             { sym"@parameter" },
+    TelescopePromptTitle                       { TelescopeTitle },
+    TelescopeResultsTitle                      { TelescopeTitle },
+    TelescopePreviewTitle                      { TelescopeTitle },
+    TelescopePromptPrefix                      { TelescopeTitle },
+    TelescopePromptBorder                      { fg = hsl(55,100,50), bg = hsl(60,20,13) },
     }
 end)
 ---@diagnostic disable

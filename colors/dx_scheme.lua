@@ -69,6 +69,15 @@ DiagnosticSignError = { link = "DiagnosticVirtualTextError" },
 DiagnosticSignWarn = { link = "DiagnosticVirtualTextWarn" },
 DiagnosticSignInfo = { link = "DiagnosticVirtualTextInfo" },
 DiagnosticSignHint = { link = "DiagnosticVirtualTextHint" },
+TelescopeBorder = { fg = "#fff799", bg = "#28281b" },
+TelescopeResultBorder = { link = "TelescopeBorder" },
+TelescopePreviewBorder = { link = "TelescopeBorder" },
+TelescopeTitle = { fg = "#fff266" },
+TelescopePromptTitle = { link = "TelescopeTitle" },
+TelescopeResultsTitle = { link = "TelescopeTitle" },
+TelescopePreviewTitle = { link = "TelescopeTitle" },
+TelescopePromptPrefix = { link = "TelescopeTitle" },
+TelescopePromptBorder = { fg = "#ffea00", bg = "#28281b" },
 }
 
 
