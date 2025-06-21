@@ -61,6 +61,14 @@ Function = {fg = "#ffaa00" },
 String = { fg = "#b46464" },
 ["@string"] = { link = "String" },
 NvimString = { link = "String" },
+DiagnosticVirtualTextError = { fg = "#bd2828" },
+DiagnosticVirtualTextWarn = { fg = "#cccc00" },
+DiagnosticVirtualTextInfo = { fg = "#33cccc" },
+DiagnosticVirtualTextHint = { fg = "#666600" },
+DiagnosticSignError = { link = "DiagnosticVirtualTextError" },
+DiagnosticSignWarn = { link = "DiagnosticVirtualTextWarn" },
+DiagnosticSignInfo = { link = "DiagnosticVirtualTextInfo" },
+DiagnosticSignHint = { link = "DiagnosticVirtualTextHint" },
 }
 
 

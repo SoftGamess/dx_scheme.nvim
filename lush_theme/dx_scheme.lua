@@ -66,6 +66,18 @@ local theme = lush(function(injected_functions)
     String                                     { fg = hsl(0,35,55) },
     sym"@string"                               { String },
     NvimString                                 { String },
+    DiagnosticVirtualTextError                 { fg = hsl(0,65,45) },
+    DiagnosticVirtualTextWarn                  { fg= hsl(60,100,40) },
+    DiagnosticVirtualTextInfo                  { fg = hsl(180,60,50) },
+    DiagnosticVirtualTextHint                  { fg = hsl(60,100,20) },
+    DiagnosticSignError                        { DiagnosticVirtualTextError },
+    DiagnosticSignWarn                         { DiagnosticVirtualTextWarn },
+    DiagnosticSignInfo                         { DiagnosticVirtualTextInfo },
+    DiagnosticSignHint                         { DiagnosticVirtualTextHint },
+    DiagnosticUnderlineError                   { underline= true },
+    DiagnosticUnderlineWarn                    { underline= true },
+    DiagnosticUnderlineInfo                    { underline= true },
+    DiagnosticUnderlineHint                    { underline= true },
     }
 end)
 ---@diagnostic disable
