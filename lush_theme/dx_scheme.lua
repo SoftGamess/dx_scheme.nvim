@@ -43,7 +43,7 @@ local theme = lush(function(injected_functions)
     sym"@lsp.type.property"                    { Identifier },
     sym"@lsp.type.variable"                    { Identifier },
     NvimIdentifier                             { Identifier },
-    Delimiter                                  { fg = hsl(180,100,20) },
+    Delimiter                                  { fg = hsl(180,100,25) },
     Operator                                   { Delimiter },
     sym"@punctuation"                          { Delimiter },
     NvimParenthesis                            { Delimiter },
@@ -63,7 +63,7 @@ local theme = lush(function(injected_functions)
     sym"@lsp.type.decorator"                   { Function },
     sym"@lsp.type.method"                      { Function },
     sym"@lsp.type.function"                    { Function },
-    String                                     { fg = hsl(0,35,50) },
+    String                                     { fg = hsl(0,35,55) },
     sym"@string"                               { String },
     NvimString                                 { String },
     }
