@@ -63,7 +63,10 @@ local theme = lush(function(injected_functions)
     sym"@lsp.type.decorator"                   { Function },
     sym"@lsp.type.method"                      { Function },
     sym"@lsp.type.function"                    { Function },
-      }
+    String                                     { fg = hsl(0,35,50) },
+    sym"@string"                               { String },
+    NvimString                                 { String },
+    }
 end)
 ---@diagnostic disable
 return theme

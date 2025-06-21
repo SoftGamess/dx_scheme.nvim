@@ -58,6 +58,9 @@ Function = {fg = "#ffaa00" },
 ["@lsp.type.decorator"] = {link = "Function"},
 ["@lsp.type.method"] = {link = "Function"},
 ["@lsp.type.function"] = {link = "Function"},
+String = { fg = "#ac5353" },
+["@string"] = { link = "String" },
+NvimString = { link = "String" },
 }
 
 
