@@ -71,6 +71,14 @@ local theme = lush(function(injected_functions)
     DiagnosticVirtualTextWarn                  { fg= hsl(80,50,40) },
     DiagnosticVirtualTextInfo                  { fg = hsl(180,60,50) },
     DiagnosticVirtualTextHint                  { fg = hsl(60,100,20) },
+    DiagnosticError                            { DiagnosticVirtualTextError },
+    DiagnosticWarn                             { DiagnosticVirtualTextWarn },
+    DiagnosticInfo                             { DiagnosticVirtualTextInfo },
+    DiagnosticHint                             { DiagnosticVirtualTextHint },
+    DiagnosticFloatingError                    { DiagnosticVirtualTextError },
+    DiagnosticFloatingWarn                     { DiagnosticVirtualTextWarn },
+    DiagnosticFloatingInfo                     { DiagnosticVirtualTextInfo },
+    DiagnosticFloatingHint                     { DiagnosticVirtualTextHint },
     DiagnosticSignError                        { DiagnosticVirtualTextError },
     DiagnosticSignWarn                         { DiagnosticVirtualTextWarn },
     DiagnosticSignInfo                         { DiagnosticVirtualTextInfo },
@@ -88,6 +96,7 @@ local theme = lush(function(injected_functions)
     TelescopePreviewTitle                      { TelescopeTitle },
     TelescopePromptPrefix                      { TelescopeTitle },
     TelescopePromptBorder                      { fg = hsl(55,100,50), bg = hsl(60,20,13) },
+    MatchParen                                 { fg = hsl(0,0,0), bg = hsl(45,100,60) , gui="bold,underline", },
     }
 end)
 ---@diagnostic disable
