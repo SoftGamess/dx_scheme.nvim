@@ -14,7 +14,7 @@ local theme = lush(function(injected_functions)
     Search                                     { bg = hsl(160,20,30) },
     Comment                                    { fg = hsl(0,0,40) },
     sym"@lsp.type.comment"                     { Comment },
-    Constant                                   { fg = hsl(35,100,30), gui ="bold" },
+    Constant                                   { fg = hsl(38,100,31), gui ="bold" },
     sym"@constant"                             { Constant },
     sym"@lsp.type.enumMember"                  { Constant },
     StorageClass                               { Constant },
