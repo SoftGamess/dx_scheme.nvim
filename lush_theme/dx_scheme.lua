@@ -7,7 +7,9 @@ local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
 --    SpecialKey                                 { fg="#d7c483", },
-    TermCursor                                 { gui= "reverse", },
+    Cursor                                     { fg = hsl(0,0,0), bg = hsl(160,100,60) },
+    TermCursor                                 { Cursor },
+    vCursor                                    { fg = hsl(0,0,0), bg = hsl(160,100,30) },
     Normal                                     { bg = hsl(60,20,15) },
     Visual                                     { bg = hsl(160,20,30) },
     TelescopeSelection                         { Visual },
@@ -96,7 +98,7 @@ local theme = lush(function(injected_functions)
     TelescopePreviewTitle                      { TelescopeTitle },
     TelescopePromptPrefix                      { TelescopeTitle },
     TelescopePromptBorder                      { fg = hsl(55,100,50), bg = hsl(60,20,13) },
-    MatchParen                                 { fg = hsl(0,0,0), bg = hsl(45,100,60) , gui="bold,underline", },
+    MatchParen                                 { fg = hsl(0,0,0), bg = hsl(0,100,100) , gui="bold,underline", },
     Folded                                     { fg = hsl(55,50,50), bg = hsl(60,20,12)},
     }
 end)
