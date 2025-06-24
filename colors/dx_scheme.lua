@@ -87,6 +87,7 @@ TelescopePreviewTitle = { link = "TelescopeTitle" },
 TelescopePromptPrefix = { link = "TelescopeTitle" },
 TelescopePromptBorder = { fg = "#ffea00", bg = "#28281b" },
 MatchParen = { fg = "#000000", bg = "#ffcc33", underline = true, bold = true },
+Folded = { fg = "#bfb540", bg = "#252518" },
 }
 
 

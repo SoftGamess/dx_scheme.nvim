@@ -30,7 +30,7 @@ local theme = lush(function(injected_functions)
     sym"@constructor"                          { Constant },
     Tag                                        { Constant },
     Debug                                      { Constant },
-    vimHiAttrib                                { Constant },
+    vimHiAttri                                { Constant },
     SpecialChar                                { Constant },
     SpecialComment                             { Constant },
     Special                                    { Constant },
@@ -97,6 +97,7 @@ local theme = lush(function(injected_functions)
     TelescopePromptPrefix                      { TelescopeTitle },
     TelescopePromptBorder                      { fg = hsl(55,100,50), bg = hsl(60,20,13) },
     MatchParen                                 { fg = hsl(0,0,0), bg = hsl(45,100,60) , gui="bold,underline", },
+    Folded                                     { fg = hsl(55,50,50), bg = hsl(60,20,12)},
     }
 end)
 ---@diagnostic disable
