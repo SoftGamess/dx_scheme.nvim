@@ -100,6 +100,8 @@ local theme = lush(function(injected_functions)
     TelescopePromptBorder                      { fg = hsl(55,100,50), bg = hsl(60,20,13) },
     MatchParen                                 { fg = hsl(0,0,0), bg = hsl(0,100,100) , gui="bold,underline", },
     Folded                                     { fg = hsl(55,50,50), bg = hsl(60,20,12)},
+    StatusLine                                 { fg="#d7c483", gui="bold", bg = hsl(115,10,20) },
+
     }
 end)
 ---@diagnostic disable
